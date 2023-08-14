@@ -45,7 +45,7 @@ h1 {
 
 .side-box {
     background-color: #f8f8f8;
-    padding: 10px 0;
+    padding: 10px 2px !important;
 }
 
 .container1 {
@@ -152,7 +152,7 @@ h1 {
     .header {
         text-align: center;
         padding: 20px;
-
+        color: #575757;
         letter-spacing: 0.1em;
     }
 
@@ -176,6 +176,7 @@ h1 {
         font-weight: 400;
     }
 
+
     .header-ele1 {
         font-size: 16px;
         letter-spacing: 0.1em;
@@ -183,7 +184,7 @@ h1 {
 
     .side-box {
         background-color: #f8f8f8;
-        padding: 10px 0;
+        padding: 10px 0 !important;
     }
 
     .container1 {
@@ -216,7 +217,6 @@ h1 {
     .custom-cont {
         margin-bottom: 0.5rem;
     }
-
 
     .intern-span {
         font-size: 18px;
