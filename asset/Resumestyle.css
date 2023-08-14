@@ -84,7 +84,9 @@ h1 {
 .edu-info,
 .edu-info1,
 .intern-s,
-.list-style {
+.list-style,
+.sec-header,
+.sub-sec-header {
     color: var(--root-color);
 }
 
@@ -131,6 +133,82 @@ h1 {
 
 .list-style {
     margin-bottom: 0.3rem;
+}
+
+.resume1 {
+    width: 8.3in;
+    height: 11.7in;
+    margin: 20px auto;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+
+}
+
+.sec-header {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.sub-sec-header {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+
+
+dt,
+dd,
+ul,
+.projt-title,
+.projt-descrip,
+.Declare {
+    color: #656565
+}
+
+dt {
+    font-size: 14px;
+}
+
+dd {
+    font-size: 12px;
+}
+
+li {
+    list-style-type: disc;
+    font-size: 12px;
+}
+
+.projt-title {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.projt-descrip {
+    font-size: 12px;
+}
+
+.Declare-p {
+    color: #656565;
+    font-size: 12px !important;
+}
+
+.sign-img {
+    display: flex;
+    position: relative;
+}
+
+.flex {
+    height: 20%;
+    display: flex;
+}
+
+footer {
+    position: relative;
+    flex: 1;
+    align-self: flex-end;
 }
 
 @media (max-width:797px) {
