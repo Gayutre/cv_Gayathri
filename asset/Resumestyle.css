@@ -195,21 +195,7 @@ li {
     font-size: 12px !important;
 }
 
-.sign-img {
-    display: flex;
-    position: relative;
-}
 
-.flex {
-    height: 20%;
-    display: flex;
-}
-
-footer {
-    position: relative;
-    flex: 1;
-    align-self: flex-end;
-}
 
 @media (max-width:797px) {
 
