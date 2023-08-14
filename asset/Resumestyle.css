@@ -20,7 +20,7 @@ body {
 }
 
 .main-content {
-    padding: 0 20px;
+    padding: 0 15px;
 }
 
 .header {
@@ -234,7 +234,7 @@ h1 {
 
     .right-box2 {
         display: grid;
-        grid-template-columns: 2fr 0.8fr;
+        grid-template-columns: 2fr 0.5fr;
         gap: 0.7rem;
         margin-bottom: 1rem;
     }
