@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,400;1,500&family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300&display=swap');
+
+:root {
+    --root-color: #575757;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto' !important;
+}
+
+.resume {
+    width: 8.3in;
+    height: 11.7in;
+    margin: 10px auto;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+
+}
+
+.main-content {
+    padding: 0 20px;
+}
+
+.header {
+    text-align: center;
+    padding: 20px;
+    letter-spacing: 0.1em;
+}
+
+h1 {
+    margin: 0;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.header-ele1 {
+    font-size: 18px;
+}
+
+.content {
+    padding: 10px 20px;
+}
+
+.side-box {
+    background-color: #f8f8f8;
+    padding: 10px 0;
+}
+
+.container1 {
+    margin-left: 20px;
+}
+
+.style-info {
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+}
+
+.text-shade {
+    text-align: justify;
+}
+
+.person-box {
+    font-weight: 400;
+}
+
+
+.hr0 {
+    border: 1px dashed #000 !important;
+    width: 200px;
+}
+
+.main {
+    padding-left: 25px !important;
+}
+
+.header,
+.style-info,
+.custom-style,
+.text-shade,
+.title,
+.edu-info,
+.edu-info1,
+.intern-s,
+.list-style {
+    color: var(--root-color);
+}
+
+.title {
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-size: 22px !important;
+}
+
+.right-box {
+    display: grid;
+    grid-template-columns: 3fr 0.6fr;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.right-box2 {
+    display: grid;
+    grid-template-columns: 2fr 0.5fr;
+    gap: 0.7rem;
+    margin-bottom: 1rem;
+}
+
+.edu-info {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.edu-info1 {
+    font-weight: bold;
+}
+
+.custom-cont {
+    margin-bottom: 0.5rem;
+    font-size: 13px;
+}
+
+
+.intern-span {
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.list-style {
+    margin-bottom: 0.3rem;
+}
+
+@media (max-width:797px) {
+
+    .resume {
+        width: 8.3in;
+        /* Width of a standard letter-size paper in inches */
+        height: 11.7in;
+        /* Height of a standard letter-size paper in inches */
+        margin: 0 auto;
+        background-color: white;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .main-content {
+        padding: 0 10px;
+    }
+
+    .header {
+        text-align: center;
+        padding: 20px;
+
+        letter-spacing: 0.1em;
+    }
+
+    .content {
+        padding: 10px 20px;
+    }
+
+    h1 {
+        margin: 0;
+        font-size: 28px;
+        text-transform: uppercase;
+    }
+
+    .style-info {
+        text-transform: uppercase;
+        font-weight: 400;
+        letter-spacing: 0.1rem;
+    }
+
+    .person-box {
+        font-weight: 400;
+    }
+
+    .header-ele1 {
+        font-size: 16px;
+        letter-spacing: 0.1em;
+    }
+
+    .side-box {
+        background-color: #f8f8f8;
+        padding: 10px 0;
+    }
+
+    .container1 {
+        margin-left: 30px;
+    }
+
+    .main {
+        padding-left: 25px !important;
+    }
+
+    .title {
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+    }
+
+
+    .hr0 {
+        border: 1px dashed #000 !important;
+        width: 200px;
+    }
+
+    .edu-info {
+        font-weight: bold;
+    }
+
+    .edu-info1 {
+        font-weight: bold;
+    }
+
+    .custom-cont {
+        margin-bottom: 0.5rem;
+    }
+
+
+    .intern-span {
+        font-size: 18px;
+        font-weight: 400;
+        text-transform: capitalize;
+    }
+
+
+    .right-box {
+        display: grid;
+        grid-template-columns: 3fr 0.6fr;
+        gap: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .right-box2 {
+        display: grid;
+        grid-template-columns: 2fr 0.8fr;
+        gap: 0.7rem;
+        margin-bottom: 1rem;
+    }
+
+    .list-style {
+        margin-bottom: 0.3rem;
+    }
+
+}
